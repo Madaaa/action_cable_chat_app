@@ -3,8 +3,4 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 
-message_appender = (content) ->
-  $('#messages-table').append content
 
-$(document).on 'turbolinks:load', ->
-  message_appender 'hello, world!'
